@@ -2,12 +2,10 @@
 =============================================================
 Create Database and Schemas
 =============================================================
-/* ---NOTE THAT---
+ ---NOTE THAT---
 Import the data sources from the previous data_warehouse_project after i already transformed and cleansed it.
 so if you want to import these sources feel free to grap it from my other repository "sql_data_warehouse_project".
-*/
---=============================================================
-
+=============================================================
 Script Purpose:
     This script creates a new database named 'DataWarehouseAnalytics' after checking if it already exists. 
     If the database exists, it is dropped and recreated. Additionally, this script creates a schema called gold
