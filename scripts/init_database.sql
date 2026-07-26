@@ -2,9 +2,16 @@
 =============================================================
 Create Database and Schemas
 =============================================================
- ---NOTE THAT---
+ ---NOTE THAT---IMPORTING DATA
+
+OPTION (A)
+----------------
 Import the data sources from the previous data_warehouse_project after i already transformed and cleansed it.
 so if you want to import these sources feel free to grap it from my other repository "sql_data_warehouse_project".
+
+OPTION (B)
+----------------
+There is a file called 'datasets' containing all the data you gonna need from all layers (before and after cleansing & transormation)
 =============================================================
 Script Purpose:
     This script creates a new database named 'DataWarehouseAnalytics' after checking if it already exists. 
